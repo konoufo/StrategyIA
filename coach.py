@@ -19,6 +19,7 @@ __author__ = 'RoboCupULaval'
 
 TIMESTAMP_MINIMAL_DELTA = 0.015 #15 ms de mise à jour pour la boucle de l'ia
 
+
 class Coach(object):
     """
         Niveau supérieur de l'IA, est appelé et créé par Framework.
@@ -27,7 +28,7 @@ class Coach(object):
         de la logique de l'IA.
 
         À chaque itération, les Executors sont déclenchés et InfoManager est
-        mit à jour.
+        mis à jour.
 
         À la fin d'une itération, les commandes des robots sont récupérées de
         l'InfoManager et finalement envoyée au serveur de communication.
